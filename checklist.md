@@ -7,7 +7,9 @@ Books:
 - [ ] (~ a book) https://www.topcoder.com/community/data-science/data-science-tutorials/the-importance-of-algorithms/
 
 Repos:
+- [ ] https://github.com/davidhampgonsalves/interview-resources
 - [ ] https://github.com/andreis/interview
+- [ ] https://github.com/davidhampgonsalves/interview-resources
 - [ ] https://github.com/alex/what-happens-when#the-g-key-is-pressed
 
 Practice:
@@ -20,6 +22,8 @@ Algorithmic complexity:
 Algorithms:
 - [ ] insertion sort
 - [ ] merge sort
+- [ ] heap sort
+- [ ] radix sort
 - [ ] quick sort
 - [ ] bubble sort
 - [ ] Big O Notation http://bigocheatsheet.com/
@@ -30,6 +34,9 @@ Data structures:
 - [ ] Map
 - [ ] Set
 - [ ] Heap
+- [ ] stack
+- [ ] queue
+- [ ] graph
 
 Handouts:
 - [ ] Google questions
@@ -60,6 +67,7 @@ Projects:
 - finish mewsy if at all possible!
 
 Articles:
+- [ ] cs interview guide https://github.com/schmatz/cs-interview-guide
 - [ ] http://dandreamsofcoding.com/2012/11/25/how-to-prepare-for-technical-interviews/
 - [ ] hiring at facebook https://www.facebook.com/notes/10150964382448920
 - [ ] hiring at google http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html
