@@ -4,6 +4,7 @@ Books:
 - [ ] introduction to algorithms
 - [ ] cracking tech interview
 - [ ] introduction to CS with python
+- [ ] (~ a book) https://www.topcoder.com/community/data-science/data-science-tutorials/the-importance-of-algorithms/
 
 Repos:
 - [ ] https://github.com/andreis/interview
