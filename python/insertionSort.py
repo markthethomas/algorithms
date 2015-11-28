@@ -16,7 +16,7 @@ def insertionSort(sequence):
 
         # sort subarray
         while i >= 0 and sequence[i] > current:
-            # shift items over until i is 0 and
+            # while i isn't 0 and prev item is greater than the current
             sequence[i + 1] = sequence[i]
 
             # decrement i
@@ -28,7 +28,7 @@ def insertionSort(sequence):
     return sequence
 
 
-a = [5, 4, 5, 2, 1]
-sortedA = [1, 2, 4, 5, 5]
+a = [3, 4, 2, 1]
+sortedA = [1, 2, 3, 4]
 insertionSort(a)
 print('sorted √' if a == sortedA else 'not sorted :(')
