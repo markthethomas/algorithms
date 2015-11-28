@@ -14,9 +14,6 @@ def insertionSort(sequence):
         # insert into sorted sequence
         i = index - 1
 
-        print('i is:\t\t', i)
-        print('current is:\t', current)
-
         # sort subarray
         while i >= 0 and sequence[i] > current:
             # shift items over until i is 0 and
@@ -27,9 +24,6 @@ def insertionSort(sequence):
 
         # assign the current value i (because i is now 0)
         sequence[i + 1] = current
-
-        print(sequence)
-        print('=' * 18)
 
     return sequence
 
