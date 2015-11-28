@@ -20,7 +20,8 @@ Algorithmic complexity:
 - [ ] http://discrete.gr/complexity/
 
 Algorithms:
-- [ ] insertion sort
+- [x] insertion sort
+- [x] binary search
 - [ ] merge sort
 - [ ] heap sort
 - [ ] radix sort
