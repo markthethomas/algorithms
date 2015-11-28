@@ -7,7 +7,7 @@ def insertionSort(sequence):
     Output: permutation of the input sequence such that {a1 <= a2 <= a3 ... an}
     """
     # skip the first element
-    for index in list(range(1,len(sequence))):
+    for index in list(range(1, len(sequence))):
         # determine which item is currently being evaluated
         current = sequence[index]
 
