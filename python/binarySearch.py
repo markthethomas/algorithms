@@ -1,5 +1,7 @@
 # Recursive Binary Search
 
+# runtime: O(log n)
+
 def binarySearch(target, arr, minimum=0, maximum=None):
     """
     Accepts: a target element and a sorted array to search

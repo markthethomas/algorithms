@@ -1,5 +1,6 @@
 # Insertion sort
 
+# runtime: O(n^2)
 
 def insertionSort(sequence):
     """

@@ -1,5 +1,7 @@
 # Selection Sort
 
+# runtime: O(n^2)
+
 # find smallest, sawp with first element
 # find second smallest, swap with second element
 # find nth smallest, swap w/ n
