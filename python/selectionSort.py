@@ -1,5 +1,5 @@
 # Selection Sort
-
+import unittest
 # runtime: O(n^2)
 
 # find smallest, sawp with first element
@@ -27,12 +27,16 @@ def selectionSort(sequence):
             sequence[i], sequence[smallest] = sequence[smallest], sequence[i]
     return sequence
 
-example_input = [2, 1, 3, 4]
-sorted_array = selectionSort(example_input)
+class TestSelectionSort(unittest.TestCase):
+    """test selectionSort"""
+    def test_sorting(self):
+        example_input = [2, 1, 3, 4]
+        selectionSort(example_input)
+        self.assertEqual(example_input, [1,2,3,4])
+    def test_return(self):
+        example_input = [2, 1, 3, 4]
+        sorted_array = selectionSort(example_input)
+        self.assertEqual(sorted_array, [1,2,3,4])
 
-if sorted_array != [1,2,3,4]:
-    print('Failure!')
-    print(sorted_array)
-else:
-    print('Sorted! √')
-
+if __name__ == '__main__':
+    unittest.main()
