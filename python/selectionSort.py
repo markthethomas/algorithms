@@ -13,19 +13,24 @@ def selectionSort(sequence):
     Output: permutation of the input sequence such that {a1 <= a2 <= a3 ... an}
     """
 
-    for i in list(range(len(sequence) - 1)):
+    for i in range(0, len(sequence)):
         # Set the min to initial item
         smallest = i
 
         # Check the rest to see if anything is smaller
-        for j in list(range(len(sequence))):
-            if sequence[j] <= sequence[smallest]:
+        for j in range(i + 1, len(sequence)):
+            if sequence[j] < sequence[smallest]:
                 smallest = j
-        print(sequence)
-        temp = sequence[smallest]
-        sequence[smallest] = sequence[i]
-        sequence[i] = temp
+        if i != smallest:
+            sequence[i], sequence[smallest] = sequence[smallest], sequence[i]
+    return sequence
 
 example_input = [2, 1, 3, 4]
-selectionSort(example_input)
-print(example_input)
+sorted_array = selectionSort(example_input)
+
+if sorted_array != [1,2,3,4]:
+    print('Failure!')
+    print(sorted_array)
+else:
+    print('Sorted! √')
+
