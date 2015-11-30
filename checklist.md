@@ -22,12 +22,14 @@ Algorithmic complexity:
 Algorithms:
 - [x] insertion sort
 - [x] binary search
+- [x] selection sort
 - [ ] merge sort
 - [ ] heap sort
 - [ ] radix sort
 - [ ] quick sort
 - [ ] bubble sort
 - [ ] Big O Notation http://bigocheatsheet.com/
+- [ ] Python Algorithms etc. => https://github.com/nryoung/algorithms
 
 Data structures:
 - [ ] Linked List
