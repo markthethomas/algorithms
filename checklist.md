@@ -23,7 +23,7 @@ Algorithms:
 - [x] insertion sort
 - [x] binary search
 - [x] selection sort
-- [ ] merge sort
+- [x] merge sort
 - [ ] heap sort
 - [ ] radix sort
 - [ ] quick sort
