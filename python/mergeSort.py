@@ -42,7 +42,8 @@ def mergeSort(sequence):
     # recursively call merge sort on right slice of array
     right = mergeSort(sequence[middle:])
     # with each passed left and right segements, call the merge function to compare each item of
-    # left right and merge them together into the right order. Returns a sequence
+    # left right and merge them together into the right order. Returns a
+    # sequence
     return merge(left, right)
 
 
