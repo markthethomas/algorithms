@@ -1,5 +1,5 @@
-# interview
-Implement all the things
+# Algorithms
+Implement all the things.
 ----------
 
 Working on implementing as many data structures, algorithms, and misc. challenges as I can to prepare for interviews.
