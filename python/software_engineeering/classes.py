@@ -11,8 +11,14 @@ class Pokemon(object):
     def attack(self, target, move):
         print('{name} is attacking {target} with {move}!'.format(name=self.name, target=target, move=move))
 
+class Water(Pokemon):
+    """docstring for Water"""
+    # def __init__(self):
+    #     super(Water, self).__init__()
+
+
 Bulbasaur = Pokemon('bulbasaur', 100, 20)
 
 Pikachu = Pokemon('Pikachu', 100, 20)
 
-Bulbasaur.attack(, 'floober')
+Bulbasaur.attack('Mark', 'floober')
